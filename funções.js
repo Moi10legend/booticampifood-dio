@@ -1,6 +1,11 @@
-torrar()
+let userName = getFirstName("Moisés Freire Lopes Filho", " " )
+let userName2 = getFirstName("Júlia-Vitória-Melo-da-Silva", "-")
 
-function torrar(){
-    console.log("Torrando pão")
+console.log("Olá, seja bem vindo(a) " + userName + "!")
+console.log("Olá, seja bem vindo(a) " + userName2 + "!")
+
+function getFirstName(name, splitChar){
+    let firstName = name.split(splitChar)[0]
+    return firstName
 }
 
