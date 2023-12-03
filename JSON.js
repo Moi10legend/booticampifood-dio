@@ -14,3 +14,13 @@ let match = {
 
 
 }
+
+function matching(match){
+    console.log(`A partida de hoje será pela final do mundial amigos! Será ${match.team1} contra ${match.team2}`)
+    for(let index in match.playersTeam1){
+        let[playerName, playerNumber] = match.playersTeam1[index]
+        console.log(`Os principais jogadores do ${team1} são ${playersteam1}`)
+    }
+}
+
+matching(match)
